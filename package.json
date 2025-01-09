@@ -1,0 +1,27 @@
+{
+  "name": "alertsys",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": " jest",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.3",
+    "mongose": "^0.0.2-security",
+    "nodemailer": "^6.9.16",
+    "nodemon": "^3.1.9",
+    "rate-limiter-flexible": "^5.0.4"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
